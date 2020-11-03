@@ -1,0 +1,20 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "MAPPING",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "data.csv",
+                "has_header": true
+            },
+            "import_settings": {
+                "import_columns": [
+                    "USER",
+					"CARRID"
+                ]
+            }
+        }
+        
+    ]
+}

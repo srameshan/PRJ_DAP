@@ -1,0 +1,16 @@
+{
+  "role":{
+        "name":"scarr_access",
+        "schema_privileges":[
+             {
+                "privileges":["SELECT", "EXECUTE"]
+             }
+             
+            ],
+            "schema_analytic_privileges": [{
+			"privileges": ["carriduser"]
+		}]
+       
+        }
+    }    
+	  
